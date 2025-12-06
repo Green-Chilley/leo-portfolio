@@ -24,7 +24,7 @@ export const Writeup1 = () => {
                     This is my first writeup that I will be logging, however I have completed many CTFs without writeups in the past.
                     This one was fairly simple, and a good warmup. I completed this by running Kali Linux on a VM with a VPN tunnel to
                     TryHackMe's machine.
-                    </p>
+                </p>
                     
                 <h1 className="text-2xl md:text-4xl pt-10 font-semibold tracking-tight">
                     Reconnaissance

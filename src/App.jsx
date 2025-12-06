@@ -4,6 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { Writeup } from './pages/Writeup';
 import { Writeup1 } from './components/Writeups/Writeup1'
 import { Writeup2 } from './components/Writeups/Writeup2'
+import { Pihole } from './pages/Pihole';
 
 function App() {
   return (
@@ -11,10 +12,12 @@ function App() {
       <BrowserRouter>
         <Routes>
             <Route index element={<Home />}/>
-            <Route path="*" element={<NotFound />}/>
-            <Route path="/writeup" element={<Writeup />}/>
+          <Route path="*" element={<NotFound />} />
+          <Route path="/pihole" element={<Pihole />} />
+           <Route path="/writeup" element={<Writeup />}/>
           <Route path="/writeup/writeup1" element={<Writeup1 />} />
-          <Route path="/writeup/writeup2" element={<Writeup2 />}/>
+          <Route path="/writeup/writeup2" element={<Writeup2 />} />
+          
         </Routes>
       </BrowserRouter>
     </>

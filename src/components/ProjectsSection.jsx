@@ -46,6 +46,15 @@ const projects = [
         githubUrl: "https://universityofadelaide.box.com/s/be0m3hturp4u0069zejzh5s0f8a7wbw5",
         icon: <ExternalLink/>,
     },
+    {
+        id: 6,
+        title: "An ad blocker?",
+        description: "Just a fun side project with a Raspberry pi.",
+        image: "/projects/project6.png",
+        githubUrl: "/pihole",
+        tags: [],
+        icon: <ExternalLink/>,
+    },
 ]
 
 export const ProjectsSection = () => {
@@ -58,7 +67,7 @@ export const ProjectsSection = () => {
                 </h2>
 
                 <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                    Here are some of my completed projects done over my time in University.
+                    A list of my completed projects. Some done in Uni, some done for fun.
                 </p>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -73,8 +82,8 @@ export const ProjectsSection = () => {
 
                             <div className="p-6">
                                 <div className="flex flex-wrap gap-2 mb-4">
-                                    {project.tags.map((tag) => (
-                                        <span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+                                    {project.tags.map((tag, key) => (
+                                        <span key={key} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
                                             {tag}
                                         </span>
                                     ))}
