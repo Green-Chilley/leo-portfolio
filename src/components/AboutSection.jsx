@@ -11,7 +11,7 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center md:text-left">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate SOC Analyst & Beginner Bug Hunter
+                            Passionate Security Analyst & Web Developer
                         </h3>
 
                         <p className="text-muted-foreground">
@@ -20,8 +20,8 @@ export const AboutSection = () => {
                         </p>
 
                         <p className="text-muted-foreground">
-                            Graduating in September 2025 from the University of Adelaide, I hope to land a job in a company 
-                            that values inclusivity, growth, and collaboration, where I can apply my skills and continue learning as a SOC Analyst.
+                            As a graduate from the University of Adelaide, I hope to land a job in a company 
+                            that values inclusivity, growth, and collaboration, where I can apply my skills and continue learning as a Security Analyst.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -45,7 +45,7 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Beginner Web Development</h4>
+                                    <h4 className="font-semibold text-lg"> Web Development</h4>
                                     <p className="text-muted-foreground">
                                         Creating responsive websites using modern frameworks.
                                     </p>
