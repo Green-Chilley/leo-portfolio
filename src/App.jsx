@@ -4,6 +4,7 @@ import { NotFound } from "./pages/NotFound";
 import { Writeup } from './pages/Writeup';
 import { Writeup1 } from './components/Writeups/Writeup1'
 import { Writeup2 } from './components/Writeups/Writeup2'
+import { Writeup3 } from './components/Writeups/Writeup3'
 import { Pihole } from './pages/Pihole';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
            <Route path="/writeup" element={<Writeup />}/>
           <Route path="/writeup/writeup1" element={<Writeup1 />} />
           <Route path="/writeup/writeup2" element={<Writeup2 />} />
+          <Route path="/writeup/writeup3" element={<Writeup3 />} />
           
         </Routes>
       </BrowserRouter>

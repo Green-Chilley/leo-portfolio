@@ -17,6 +17,14 @@ const writeups = [
         difficulty: "Easy",
         link: "/writeup/writeup2",
     },
+    {
+        id: 3,
+        title: "Gaming Server",
+        description: "Can you gain access to this gaming server built by amateurs with no experience of web development and take advantage of the deployment system.",
+        from: "TryHackMe",
+        difficulty: "Easy",
+        link: "/writeup/writeup3",
+    },
 ];
 
 export const Main = () => {
