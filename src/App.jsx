@@ -6,6 +6,7 @@ import { Writeup1 } from './components/Writeups/Writeup1'
 import { Writeup2 } from './components/Writeups/Writeup2'
 import { Writeup3 } from './components/Writeups/Writeup3'
 import { Pihole } from './pages/Pihole';
+import { Analytics } from '@vercel/analytics/next';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           
         </Routes>
       </BrowserRouter>
+      <Analytics />
     </>
   );
 }
