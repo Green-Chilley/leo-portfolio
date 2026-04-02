@@ -55,6 +55,16 @@ const projects = [
         tags: [],
         icon: <ExternalLink/>,
     },
+    {
+        id: 7,
+        title: "Secure Login Application",
+        description: "A secure login application using Argon2 for password hashing and Flask for session management.",
+        image: "/projects/project7.png",
+        tags: ["Flask", "Argon2", "HTML/Bootstrap"],
+        githubUrl: "https://github.com/Green-Chilley/Secure-Login",
+        icon: <Github/>,
+
+    }
 ]
 
 export const ProjectsSection = () => {
