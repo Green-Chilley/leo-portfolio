@@ -12,15 +12,6 @@ const projects = [
     },
     {
         id: 2,
-        title: "Athena SecuFlow Git Miner",
-        description: "A git miner that uses Kotlin to extract repository information and visualized using NetworkX.",
-        image: "/projects/project5.PNG",
-        tags: ["NetworkX", "HTML/CSS", "Kotlin"],
-        githubUrl: "https://github.cs.adelaide.edu.au/a1860900/SecuFlow-UG3-SEP-2024",
-        icon: <Github/>,
-    },
-    {
-        id: 3,
         title: "OLAF Secure Chat Room",
         description: "A secure chat application using the OLAF Neighbourhood Protocol with Flask and SocketIO.",
         image: "/projects/project4.png",
@@ -29,7 +20,7 @@ const projects = [
         icon: <Github/>,
     },
     {
-        id: 4,
+        id: 3,
         title: "Procedural Backrooms",
         description: "A backrooms inspired game using procedural generation.",
         image: "/projects/project1.png",
@@ -38,7 +29,7 @@ const projects = [
         icon: <ExternalLink/>,
     },
     {
-        id: 5,
+        id: 4,
         title: "Unity VR Experience",
         description: "My first project using Unity and VR API horror based game.",
         image: "/projects/project2.PNG",
@@ -47,7 +38,7 @@ const projects = [
         icon: <ExternalLink/>,
     },
     {
-        id: 6,
+        id: 5,
         title: "An ad blocker?",
         description: "Just a fun side project with a Raspberry pi.",
         image: "/projects/project6.png",
@@ -56,7 +47,7 @@ const projects = [
         icon: <ExternalLink/>,
     },
     {
-        id: 7,
+        id: 6,
         title: "Secure Login Application",
         description: "A secure login application using Argon2 for password hashing and Flask for session management.",
         image: "/projects/project7.png",
