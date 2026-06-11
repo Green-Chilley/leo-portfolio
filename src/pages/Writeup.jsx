@@ -10,7 +10,7 @@ export const Writeup = () => {
         {/* Theme Toggle */}
             <ThemeToggle />
         {/* Background Effects */}
-            <StarBackground />
+            {/* <StarBackground /> */}
 
             <Navbar />
             

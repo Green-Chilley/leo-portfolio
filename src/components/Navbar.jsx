@@ -17,7 +17,7 @@ export const Navbar = () => {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.screenY > 10)
+            setIsScrolled(window.scrollY > 10)
         }
 
         window.addEventListener("scroll", handleScroll)
@@ -36,7 +36,7 @@ export const Navbar = () => {
                     href='#hero'
                 >
                     <span className="relative z-10"> 
-                        <span className="text-glow text-foreground"> Leo's </span> Portfolio
+                        <span className="text-glow text-foreground"> My </span> Portfolio
                     </span>
                 </a>
 

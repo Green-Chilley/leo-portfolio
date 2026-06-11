@@ -31,7 +31,7 @@ export const Main = () => {
     return (
         <div id="main" className="relative min-h-screen px-4">
             <div className="container max-w-4xl mx-auto z-10">
-                <h1 className="text-4xl md:text-6xl pt-50 font-bold tracking-tight">
+                <h1 className="text-primary text-4xl md:text-6xl pt-50 font-bold tracking-tight">
                     Writeups
                 </h1>
                 <div className="text-left p-6">
@@ -44,7 +44,7 @@ export const Main = () => {
                         <Link to={writeup.link} key={key}>
                         <div className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover">
                             <div className="p-6">
-                                <h3 className="text-xl font-semibold mb-1">
+                                <h3 className="text-primary text-xl font-semibold mb-1">
                                     {writeup.title}
                                 </h3>
                                 <p className="text-muted-foreground text-sm mb-4">

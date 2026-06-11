@@ -54,7 +54,6 @@ const projects = [
         tags: ["Flask", "Argon2", "HTML/Bootstrap"],
         githubUrl: "https://github.com/Green-Chilley/Secure-Login",
         icon: <Github/>,
-
     }
 ]
 

@@ -3,30 +3,30 @@ import {cn} from '@/lib/utils';
 
 const skills = [
     //Frontend
-    {name: "HTML/CSS", level: 50, category: "frontend"},
+    {name: "HTML/CSS", level: 25, category: "frontend"},
     {name: "JavaScript", level: 25, category: "languages"},
     {name: "React", level: 30, category: "frontend"},
     {name: "Tailwind CSS", level: 30, category: "frontend"},
-    {name: "Latex", level: 5, category: "frontend"},
 
     // Backend
-    {name: "MySQL", level: 10, category: "backend"},
+    { name: "MySQL", level: 10, category: "backend" },
+    { name: "Flask", level: 20, category: "backend" },
+    { name: "FastAPI", level: 5, category: "backend" },
 
     // Tools
-    {name: "GitHub", level: 50, category: "tools"},
-    {name: "VS Code", level: 75, category: "tools"},
-    {name: "Visual Studio", level: 30, category: "tools"},
-    {name: "Kali Linux", level: 30, category: "tools"},
-    {name: "Unity", level: 15, category: "tools"},
+    { name: "Kali Linux", level: 30, category: "tools"},
+    { name: "Unity", level: 15, category: "tools" },
+    { name: "Git", level: 20, category: "tools" },
+    { name: "Wireshark", level: 25, category: "tools" },
+    { name: "Microsoft Sentinel", level: 10, category: "tools" },
+    { name: "nmap", level: 10, category: "tools" },
+    { name: "Linux", level: 30, category: "tools" },
+    { name: "Burp Suite", level: 10, category: "tools" },
 
     // Languages
     {name: "C++", level: 50, category: "languages"},
-    {name: "C", level: 50, category: "languages"},
-    {name: "C#", level: 10, category: "languages"},
     {name: "Python", level: 50, category: "languages"},
     {name: "Luau", level: 25, category: "languages"},
-    {name: "Golang", level: 10, category: "languages"},
-    
 ];
 
 const categories = ["all", "frontend", "backend", "tools", "languages"];

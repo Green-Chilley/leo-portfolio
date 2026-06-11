@@ -1,4 +1,4 @@
-import { ShieldHalf, Code, Gamepad2 } from "lucide-react"
+import { ShieldHalf, Network, BrainCircuit } from "lucide-react"
 
 export const AboutSection = () => {
     return (
@@ -11,7 +11,7 @@ export const AboutSection = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center md:text-left">
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">
-                            Passionate Security Engineer & Web Developer
+                            Passionate Security Engineer & Cybersecurity Student
                         </h3>
 
                         <p className="text-muted-foreground">
@@ -20,8 +20,13 @@ export const AboutSection = () => {
                         </p>
 
                         <p className="text-muted-foreground">
+                            I'm currently working on a personal project that integrates AI into a phishing detection system, aiming to
+                            enhance its accuracy and adaptability in identifying evolving cyber threats.
+                        </p>
+
+                        <p className="text-muted-foreground">
                             As a graduate from the University of Adelaide, I hope to land a job in a company 
-                            that values inclusivity, growth, and collaboration, where I can apply my skills and continue learning as a Security Analyst.
+                            that values inclusivity, growth, and collaboration, where I can apply my skills and continue learning as a Security Engineer.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -29,11 +34,10 @@ export const AboutSection = () => {
                                 Get In Touch
                             </a>
                             <a 
-                                href="/Resume.pdf"
-                                download="leo_resume"
+                                href="mailto:leo.nguyen@hotmail.com.au"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
-                                Download CV
+                                Request CV
                             </a>
                         </div>
                     </div>
@@ -42,12 +46,12 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Code className="h-6 w-6 text-primary"/>
+                                    <Network className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Web Development</h4>
+                                    <h4 className="font-semibold text-lg"> Home Labs</h4>
                                     <p className="text-muted-foreground">
-                                        Creating responsive websites using modern frameworks.
+                                        Building and destroying security labs for hands-on learning.
                                     </p>
                                 </div>
                             </div>
@@ -55,12 +59,12 @@ export const AboutSection = () => {
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <Gamepad2 className="h-6 w-6 text-primary"/>
+                                    <BrainCircuit className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Game Design</h4>
+                                    <h4 className="font-semibold text-lg"> AI Integrated Security</h4>
                                     <p className="text-muted-foreground">
-                                        Designing a wide variety of video game experiences in all forms of technology.
+                                        Integrating artificial intelligence into security solutions for enhanced threat detection and response.
                                     </p>
                                 </div>
                             </div>
@@ -73,7 +77,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Cybersecurity Student / Learner</h4>
                                     <p className="text-muted-foreground">
-                                        Self taught SOC analyst preparing to enter the world of Cybersecurity.
+                                        Self taught Security Engineer preparing to enter the world of Cybersecurity.
                                     </p>
                                 </div>
                             </div>

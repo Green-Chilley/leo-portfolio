@@ -9,7 +9,7 @@ export const Pihole = () => {
         {/* Theme Toggle */}
             <ThemeToggle />
         {/* Background Effects */}
-            <StarBackground />
+            {/* <StarBackground /> */}
 
             <Navbar />
             
