@@ -21,7 +21,7 @@ export const HeroSection = () => {
                 </h1>
 
                 <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-8 ">
-                    A Computer Science graduate in Cybersecurity. Casual programmer and gymrat. I like composing and sketching in my pastime.
+                    A Computer Science graduate in Cybersecurity. Casual programmer and gymrat. I like cooking, baking and sketching in my pastime.
                 </p>
 
                 <div className="pt-4 opacity-0 animate-fade-in-delay-9">
