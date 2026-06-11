@@ -8,7 +8,8 @@ const projects = [
         image: "/projects/project3.PNG",
         tags: ["C++", "Python", "GNURadio"],
         githubUrl: "https://github.com/Green-Chilley/gr-dsmr-rc",
-        icon: <Github/>,
+        icon: <Github />,
+        date: "Nov 2024 - Feb 2025"
     },
     {
         id: 2,
@@ -17,7 +18,8 @@ const projects = [
         image: "/projects/project4.png",
         tags: ["Flask", "SocketIO", "HTML/CSS"],
         githubUrl: "https://github.com/Green-Chilley/OLAF-Neighbourhood-Protocol",
-        icon: <Github/>,
+        icon: <Github />,
+        date: "June - Nov 2024"
     },
     {
         id: 3,
@@ -26,7 +28,8 @@ const projects = [
         image: "/projects/project1.png",
         tags: ["Luau", "Roblox Studio"],
         githubUrl: "https://www.roblox.com/games/138025571492186/Untitled-Backrooms-Game",
-        icon: <ExternalLink/>,
+        icon: <ExternalLink />,
+        date: "Apr 2024"
     },
     {
         id: 4,
@@ -35,25 +38,38 @@ const projects = [
         image: "/projects/project2.PNG",
         tags: ["Unity", "C#", "Blender"],
         githubUrl: "https://universityofadelaide.box.com/s/be0m3hturp4u0069zejzh5s0f8a7wbw5",
-        icon: <ExternalLink/>,
+        icon: <ExternalLink />,
+        date: "Feb - May 2023"
     },
     {
         id: 5,
+        title: "AI assisted Phishing Analyser",
+        description: "A website to analyse emails, with a comprehensive report written by ollama 3.2:3b hosted on a laptop",
+        image: "/projects/project5.png",
+        githubUrl: "https://github.com/Green-Chilley/phishing-analyser",
+        tags: [],
+        icon: <Github />,
+        date: "May 2026 - Present"
+    },
+    {
+        id: 6,
         title: "An ad blocker?",
         description: "Just a fun side project with a Raspberry pi.",
         image: "/projects/project6.png",
         githubUrl: "/pihole",
         tags: [],
-        icon: <ExternalLink/>,
+        icon: <ExternalLink />,
+        date: "August 2025"
     },
     {
-        id: 6,
+        id: 7,
         title: "Secure Login Application",
         description: "A secure login application using Argon2 for password hashing and Flask for session management.",
         image: "/projects/project7.png",
         tags: ["Flask", "Argon2", "HTML/Bootstrap"],
         githubUrl: "https://github.com/Green-Chilley/Secure-Login",
-        icon: <Github/>,
+        icon: <Github />,
+        date: "Jan 2026 - Present"
     }
 ]
 
@@ -106,6 +122,9 @@ export const ProjectsSection = () => {
                                     </div>
                                 </div>
                             </div>
+                            <p className="flex space-x-3 px-2 py-1 text-xs font-medium bg-secondary text-secondary-foreground">
+                                {project.date}
+                            </p>
                         </div>
                     ))}
                 </div>
