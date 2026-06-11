@@ -47,7 +47,7 @@ const projects = [
         description: "A website to analyse emails, with a comprehensive report written by ollama 3.2:3b hosted on a laptop",
         image: "/projects/project5.png",
         githubUrl: "https://github.com/Green-Chilley/phishing-analyser",
-        tags: [],
+        tags: ["Flask", "TypeScript", "Python", "React"],
         icon: <Github />,
         date: "May 2026 - Present"
     },
