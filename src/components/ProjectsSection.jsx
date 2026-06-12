@@ -90,13 +90,13 @@ export const ProjectsSection = () => {
                     {projects.map((project, key) => (
                         <div 
                             key={key} 
-                            className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
+                            className="flex flex-col transition-colors duration-300 group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
                             <div className="h-48 overflow-hidden">
                                 <img src={project.image} alt={project.title} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"/>
                             </div> 
 
-                            <div className="p-6">
+                            <div className="p-6 flex-1">
                                 <div className="flex flex-wrap gap-2 mb-4">
                                     {project.tags.map((tag, key) => (
                                         <span key={key} className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
@@ -122,7 +122,7 @@ export const ProjectsSection = () => {
                                     </div>
                                 </div>
                             </div>
-                            <p className="flex space-x-3 px-2 py-1 text-xs font-medium bg-secondary text-secondary-foreground">
+                            <p className="mt-auto flex space-x-3 px-2 py-1 text-xs font-medium bg-secondary text-secondary-foreground">
                                 {project.date}
                             </p>
                         </div>

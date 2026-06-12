@@ -172,6 +172,10 @@
         border-radius: 10px;
     }
 
+    .dark ::-webkit-scrollbar-thumb:hover {
+        background: rgb(47, 104, 59);
+    }
+
     ::-webkit-scrollbar {
         width: 10px;
         background: #ffffff;
@@ -180,6 +184,9 @@
     ::-webkit-scrollbar-thumb {
         background: #8379f1;
         border-radius: 10px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: #6059ae;
     }
 }
 

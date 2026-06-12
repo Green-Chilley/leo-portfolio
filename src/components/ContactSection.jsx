@@ -70,13 +70,25 @@ export const ContactSection = () => {
                         <div className="pt-8">
                             <h4 className="font-medium mb-4"> Connect With Me</h4>
                             <div className="flex space-x-4 justify-center">
-                                <a href="https://www.linkedin.com/in/leo-n-653623291/" target="_blank">
+                                <a
+                                    href="https://www.linkedin.com/in/leo-n-653623291/"
+                                    target="_blank"
+                                    className="hover:scale-125 active:scale-95 transition-all duration-300"
+                                >
                                     <Linkedin />
                                 </a>
-                                <a href="https://www.instagram.com/leo.lvn/" target="_blank">
+                                <a
+                                    href="https://www.instagram.com/leo.lvn/"
+                                    target="_blank"
+                                    className="hover:scale-125 active:scale-95 transition-all duration-300"
+                                >
                                     <Instagram />
                                 </a>
-                                <a href="https://musescore.com/user/29253864" target="_blank">
+                                <a
+                                    href="https://musescore.com/user/29253864"
+                                    target="_blank"
+                                    className="hover:scale-125 active:scale-95 transition-all duration-300"
+                                >
                                     <Music />
                                 </a>
                             </div>
